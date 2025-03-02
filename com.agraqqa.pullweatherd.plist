@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+
+<dict>
+
+    <key>Label</key>
+
+    <string>com.agraqqa.pullweatherd</string>
+
+    <key>ProgramArguments</key>
+
+    <array>
+
+        <string>/usr/local/bin/pullweatherd.sh</string>
+
+
+    </array>
+
+    <key>WorkingDirectory</key>
+
+    <string>/var/tmp/</string>
+
+    <key>StartInterval</key>
+
+    <integer>1800</integer>
+
+    <key>StandardOutPath</key>
+
+    <string>/var/tmp/pullweatherd.log</string>
+
+    <key>StandardErrorPath</key>
+
+    <string>/var/tmp/pullweatherd_error.log</string>
+
+</dict>
+
+</plist>
